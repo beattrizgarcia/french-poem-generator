@@ -4,47 +4,53 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <title>AI French Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1>AI French Poem Generator</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of the French poem"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        Vienne la nuit sonne l’heure
-        <br />
-        Les jours s’en vont je demeure
-      </div>
-    </main>
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/beattrizgarcia" target="_blank"
-        >Beatriz Garcia</a
-      >
-      and is open sourced on
-      <a
-        href="https://github.com/beattrizgarcia/french-poem-generator"
-        target="_blank"
-        >Github</a
-      >
-      and hosted on
-      <a
-        href="https://french-poem-generator-beatriz.netlify.app/"
-        target="_blank"
-        >Netlify</a
-      >.
-    </footer>
+    <div class="container">
+      <header>
+        <h1>AI French Poem Generator</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic of the French poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">
+          Vienne la nuit sonne l’heure
+          <br />
+          Les jours s’en vont je demeure
+        </div>
+      </main>
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/beattrizgarcia" target="_blank"
+          >Beatriz Garcia</a
+        >
+        and is open sourced on
+        <a
+          href="https://github.com/beattrizgarcia/french-poem-generator"
+          target="_blank"
+          >Github</a
+        >
+        and hosted on
+        <a
+          href="https://french-poem-generator-beatriz.netlify.app/"
+          target="_blank"
+          >Netlify</a
+        >.
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
