@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="src/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI French Poem Generator</title>
   </head>
   <body>
@@ -15,7 +15,7 @@
         <h1>AI French Poem Generator</h1>
       </header>
       <main>
-        <form>
+        <form id="poem-generator-form">
           <input
             type="text"
             placeholder="Enter the topic of the French poem"
@@ -26,11 +26,7 @@
           />
           <input type="submit" class="submit-button" />
         </form>
-        <div class="poem">
-          Vienne la nuit sonne l’heure
-          <br />
-          Les jours s’en vont je demeure
-        </div>
+        <div class="poem" id="poem"></div>
       </main>
       <footer>
         This AI project was coded by
